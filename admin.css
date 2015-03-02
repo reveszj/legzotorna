@@ -1,0 +1,416 @@
+a:active, a:focus{ outline:none; }
+
+input {
+	color: #333333;}
+
+#main_admin{
+	position: relative;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: Arial;
+	background-image: none;
+	background-color: #ffffff;}	
+
+#div_adminmenu{
+	float: none;
+	width: 100%;
+	margin: 0px 0px 0px 0px;}
+	
+.admin_menu{
+	background-image: url('graphics/admin_menu_hatter.jpg');
+	background-repeat: repeat-x;
+	height: 34px;
+	margin: 0px;}
+	
+#div_adminmenu a{
+	font-size: 14px;
+	padding-top: 8px;
+	float: none;
+	display: block;
+	width: 130px;
+	height: 26px;
+	color: #fefefe;
+	text-decoration: none;
+	border-right: 1px solid #fefefe;}
+	
+#div_adminmenu a:hover{
+	/*background-color: #2E879D;*/
+	}
+	
+#div_admintorzs{
+	clear: both;
+	display: block;
+	width: 100%;
+	margin: 0px auto 10px auto !important;
+	padding-top: 20px;
+	background-image: url('graphics/admin_hatter.jpg');
+	background-repeat: repeat-x;
+	background-color: #ffffff;}
+
+#admin_termekadatlap{
+	}
+
+.a_form_fej{
+	padding: 8px 0px 0px 50px;
+	margin-bottom: 10px;
+	height: 30px;
+	background-image: url('graphics/admin_form_fej.jpg');
+	background-repeat: repeat-x;
+	color: #125582;
+	font-size: 22px;
+	text-align: left;
+	border-bottom: 1px solid #cecece;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;}
+	
+.a_form_fej label{
+	float: right;
+	color: #000000;
+	margin: 3px 6px 0px 0px;
+	font-size: 12px;
+}
+
+.a_form_beldiv{
+	clear: both;
+	margin: 0px 0px 10px 10px;
+	background-color: #f4f4f4;
+	border: 1px solid #cecece;
+	width: 96%;}	
+	
+.a_form_beldiv td{
+	text-align: left;
+}
+	
+.admin_form{
+	background-color: #ffffff;
+	border: 1px solid #cecece;
+	width: 700px;
+	clear: both;
+	margin: 0px auto 20px auto;
+	border-radius: 10px;}
+
+.admin_form span{
+	float: left;
+	display: block;
+	width: 150px;}
+	
+.belep_gomb{
+	margin: 13px auto 0px auto;
+	display: block;
+	width: 80px;
+	float: none;
+}
+
+.admin_kep{
+	float: left;
+	margin: 10px;
+	width: 650px;
+	height: 120px;
+	border: 1px solid #686868;
+}
+
+.admin_kep:hover{
+	background-color: #dedede;
+}
+
+.admin_kep img{
+	margin: 46px 30px 0 0;
+	float: right;
+	border: 0px;
+	width: 23px;
+}
+
+.admin_kep img:first-child{
+	float: left;
+	height: 104px;
+	width: auto;
+	margin: 8px 10px 8px 10px;
+	border: 1px solid #cececec;
+}
+
+.admin_kep input{
+	float: right;
+	margin: 6px 110px 8px 10px;
+	width: 280px;
+}
+
+.admin_kep label{
+	color: #686868;
+	margin: 30px 110px 0 0;
+	width: 280px;
+	float: right;
+	text-align: left;}
+	
+#menu_katalogusok{
+	position: relative;
+	display: block;
+	float: left;
+	width: 131px;
+	background-image: url('graphics/x.png');
+	height: 34px;
+	overflow: hidden;}
+	
+#menu_kozosseg{
+	position: relative;
+	display: block;
+	float: left;
+	width: 131px;
+	background-image: url('graphics/x.png');
+	height: 34px;
+	overflow: hidden;}
+	
+#menu_rendszer{
+	position: relative;
+	display: block;
+	float: left;
+	width: 131px;
+	background-image: url('graphics/x.png');
+	height: 34px;
+	overflow: hidden;}
+	
+.cedula_admintermeklista {
+	float: none;
+	clear: both;
+	display: block;
+	height: 38px;
+	width: 630px;
+	text-decoration: none;
+	color: #444444;
+	margin: 2px auto 2px auto;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;}
+	
+.cedula_admintermeklista:hover{
+	border: 1px solid #868686;
+	background-color: #F9F9E3;}
+
+.cedula_admintermeklista span{
+	display: block;
+	width: 180px;
+	padding-top: 3px;
+	font-size: 14px;
+	float: left;}
+	
+.cedula_admintermeklista img{
+	float: left;
+	height: 32px;
+	width: 32px;
+	margin: 2px;}
+	
+.div_fej_h{
+	height: 46px;
+	background-image: url('graphics/admin_fej_hatter.jpg');
+	background-repeat: repeat-x;
+	font-size: 32px;
+	color: #fefefe;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 8px;
+}
+
+/*adatlap menüsora */
+#a_lap_adatlap, #a_lap_fotok, #a_lap_hozzaszol, #a_cikk_adatlap, #a_cikk_szoveg{
+	display: block;
+	float: left;
+	padding: 3px 7px 3px 7px;
+	background-color: #dedede;
+	color: #686868;
+	text-decoration: none;
+	font-size: 14px;
+	margin: -4px 5px 0px 5px;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;}
+	
+#a_lap_adatlap:hover, #a_lap_fotok:hover, #a_lap_hozzaszol:hover, #a_cikk_adatlap:hover, #a_cikk_szoveg:hover{
+	background-color: #aaaaaa;
+	color: #fefefe;}
+	
+.a_form_mentes{
+	float: right; 
+	margin-right: 20px;}
+	
+	
+ul.menu{
+			width: 100%;
+			float: left;
+			margin: 0px 0px 0px 0px;}
+		ul.menu li{
+			float: left;
+			list-style-type: none;
+			margin: 0px auto 0px auto;
+			padding: 0px;
+			color: #fefefe;}
+		
+		ul.menu li ul{
+			position: absolute;
+			display: none;
+			}
+		ul.menu li:hover{
+			background-color: #d9d9d9;}
+		ul.menu li:hover ul{
+			opacity: 0.85;
+			display: block;}
+		ul.menu li:hover a{
+			color: #686868 !important;}
+		ul.menu li ul{
+			background-color: #eeeeee;
+			border: 1px solid #aaaaaa;
+			padding: 0px;
+			margin: 0px;
+			}
+		ul.menu li ul li{
+			float: none;
+			margin: 0px;
+			}
+			
+		ul.menu li ul li a:hover{
+			color: #fefefe !important;
+			}
+			
+.cimlap_table{
+	border-collapse: collapse;
+	float: left; 
+	margin: 10px 5px 10px 5px;
+	font-size: 12px;}
+	
+.cimlap_table td, .cimlap_table th{
+	border: 1px solid #cccccc;}
+	
+.rovatszures{
+	float: right;
+	margin-right: 10px;
+	display: block;}
+	
+.menuszerk{
+	width: 600px;
+	margin: 20px auto 0px auto;
+	border: 1px solid #cecece;
+}
+
+.menuszerk img{
+	width: 20px;
+	margin: 0px 0px 0px 10px;
+	cursor: pointer;}
+
+.menuszerk ul{
+	list-style: none;
+}
+
+.menuszerk ul li{
+	width: 250px;
+	text-align: left;
+}
+
+.menuszerk ul li img {
+	float: right;
+}
+
+.menuszerk ul li ul li{
+	width: 210px;
+}
+.but	{
+	margin: 2px auto 2px auto; 
+	width: 200px; 
+	background-color: #02223d;
+	border-radius: 4px; 
+	cursor: pointer;
+	color: #fff;	
+	}
+
+#popup{
+	position: absolute;
+	top: 0px;
+	padding-top: 200px;
+	width: 100%;
+	height: 2000px;
+	text-align: center;
+	background-image: url('graphics/homaly_f.png'); }
+	
+#popup_urlap{	
+   left: 180px;
+	-moz-box-shadow:    0px 0px 25px #484848;
+	-webkit-box-shadow: 0px 0px 25px #484848;
+	box-shadow:         0px 0px 25px #484848;
+	border-radius: 6px;
+	margin: 0px auto 0px auto;
+	width: 450px;
+	background-color: #ffffff;
+	border: 1px solid #aaa;}
+input {
+    background: #7Ccf;
+	width:150px;
+	float: left;
+}
+select {
+    background: #7Ccf;
+	width:153px;
+	float: left;
+}
+label {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bolder;
+	float: left;
+	width: 11em;
+	margin-left: 1em;
+	margin-right: 0.8em;
+	text-align: right;
+
+}
+fieldset {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bolder;
+	background:#02223D;
+	padding:1em;
+	border: 3px double;
+	border-radius: 10px;
+}
+img	{
+	float:right;
+	cursor: pointer;
+	}
+.buttom	{
+	padding: 2px 10px 2px 10px; 
+	width: 70px; 
+	background-color: #cecece;
+	border-radius: 4px; 
+	cursor: pointer;
+	color: #02223D;	
+	}
+.cim1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	color:#599d88;
+	margin-top:5px;
+}
+.cim2 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 32px;
+}
+.cim3 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 28px;
+}
+.szoveg {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	text-align: justify;
+}
+.kisszoveg {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.kisebbszoveg {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.kiemeles {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #ddebb1;
+	color:#526052;
+}

@@ -1,0 +1,64 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
+	<meta name="keywords" content="{kulcsszo}" />
+	<meta name="description" content="{leiras}" />
+	<title>Légzőtorna{oldalcim}</title>
+	<link rel="icon" href="images/favicon.gif" type="image/x-icon"/>
+	<link rel="shortcut icon" href="images/favicon.gif" type="image/x-icon"/> 
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" href="my_content.css" type="text/css"/>
+	<script src="js/jquery.min.1-5-1.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body  onload="writetitle()">
+	<div class="fejlec{fejlec_kicsi}">
+		<div class="keret">
+			<div id="logo">
+				<h1>Légzőtorna</h1>
+				<h2 style="text-align:right">COPD kezelés</h2>
+			</div>
+			<div id="menu">
+				{menu}
+			</div>
+			
+			   {slider}
+			
+		</div>
+		
+	</div>
+	<div id="tartalom">
+		<div class="keret">		
+	{tartalom}
+   
+		</div>
+	</div>
+	<div id="lablec_felso">
+	<div class="keret">
+		<div class="lablec_hasab">
+			<p class="cim2">LINKEK:</p>
+			<p class="szoveg"><a href="?id=5">Kapcsolat</a></p>
+			<p class="szoveg"><a href="?id=12">Impresszum</a></p>
+			<p class="szoveg"><a href="?id=8">Jognyilatkozat</a></p>
+		</div>
+		<div class="lablec_hasab">
+			
+		</div>
+		<div class="lablec_hasab">
+			<p class="cim2">LINKEK:</p>
+			<p class="szoveg"><a href="?id=7">Általános Szerződési Feltételek</a></p>
+			<p class="szoveg"><a href="?id=9">Adatkezelési tájékoztató</a></p>
+		</div>
+		<div class="lablec_hasab">
+			
+		</div>
+	</div>
+	</div>
+	<div id="lablec_also">
+	<div class="keret">
+	<p class="kisebbszoveg" style="padding-top:60px;color:#999999;">&copy; 2014 <a style="color:#999999;text-decoration:none;" href="http://www.vario98.hu/">Vario 98</a></p>
+	</div>
+	</div>
+</body>
+</html>

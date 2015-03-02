@@ -1,0 +1,198 @@
+ body{
+	margin: 0;
+	padding: 0;
+	background-color: #e4e4e4;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: justify;
+ }
+
+ #logo{
+	background-color: #7398ab;
+	color: #fff;
+	width: 300px;
+	height: 120px;
+	margin: 0;
+	border-radius: 5px;
+	float: left;
+	-webkit-box-shadow: 4px 6px 13px 4px rgba(50, 50, 50, .9);
+   -moz-box-shadow:    4px 6px 13px 4px rgba(50, 50, 50, .9);
+   box-shadow:         4px 6px 13px 4px rgba(50, 50, 50, .9);
+ }
+ 
+ #logo h1{
+	margin: 0;
+	padding-top: 10px;
+	padding-right: 40px;
+	font-size: 42px;
+	float: right;
+ }
+ 
+ #logo h2{
+	margin: 0;
+	padding-top: 2px;
+	padding-right: 40px;
+	font-size: 28px;
+	float: right;
+ }
+ 
+ #menu{
+	width: 665px;
+	float: right;
+	margin: 50px 0px 0px 10px;
+	text-align: right;	
+ }
+ 
+ #menu a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 22px;
+	padding: 3px;
+	margin: 0px 4px 0px 4px;
+	border-bottom: 3px solid #333;
+	font-weight: bold;
+ }
+ 
+ #menu a:hover{
+	background-color: #7398ab;
+	color: #000;
+	border-radius: 5px;
+}
+#menu a.current{
+	background-color: #7398ab;
+	color: #000;
+	border-radius: 5px;
+}
+ 
+ .fejlec{
+	height: 755px;
+	background-color: #595d8d;
+	width: 100%;
+ }
+ 
+ .fejlec_kicsi{
+	height: 155px;
+ }
+ 
+ #tartalom{
+	min-height: 300px;
+	text-align:justify;
+ }
+ 
+ #lablec_felso{
+	background-color: #7398ab;
+	height: 150px;
+	width: 100%;
+	color:#fff;
+ }
+ 
+ #lablec_also{
+	background-color: #595d8d;
+	width: 100%;
+	height: 150px;
+ }
+ 
+ .keret{
+	width: 980px;
+	margin: 0px auto 0px auto;
+ }
+ 
+ .keret p{
+	height: auto !important;
+	display: block !important;
+	margin-bottom: 30px !important;
+ }
+ 
+ .lablec_hasab{
+   width: 225px;
+   float: left;
+   min-height: 30px;
+   padding: 10px;
+}
+
+#slides{
+	clear: both;
+	height: 320px;
+	overflow: hidden;
+	float: left;
+	margin: 30px auto 20px auto;	
+}
+.slides_container{
+	width: 960px;
+	position: relative;
+	float: left;
+	height:300px;
+	padding:10px;
+	background:#E9EAEB;	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+.bevezeto {
+	float: left;
+	width: 960px;
+	position: relative;		
+	background:transparent;
+	color:#fff;
+	font-family:"Segoe Script", Arial, Helvetica, sans-serif;
+	font-size:26px;
+	}
+.bevezeto h3,p{
+	margin:0px;
+}
+}
+.input {    
+    background: #FFFFCC;	
+}
+select {
+    margin-left:2px;
+	width:130px;
+	height:40px;
+}
+
+textarea {    
+    background: #FFFFCC;
+}
+.label {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	float: left;
+	width: 20em;
+	margin-left: 1em;
+	margin-right: 0.8em; 
+	text-align: right;
+	font-size: 13px; 
+}
+
+.cim1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	color:#599d88;
+	margin-top:5px;
+}
+.cim2 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 32px;
+}
+.cim3 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 28px;
+}
+.szoveg {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	text-align: justify;
+}
+.kisszoveg {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.kisebbszoveg {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.kiemeles {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: #ddebb1;
+	color:#526052;
+}

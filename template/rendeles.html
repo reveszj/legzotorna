@@ -1,0 +1,49 @@
+<div class="uzenet">
+<br /><br />
+{uzenet}
+</div>
+<div style="margin:0 auto 0 auto; width:520px;">
+<form method="post" action="">
+		  <label class="label" for="email"> Neve:</label>
+		  <input class="input" name="name" type="text" value="{name}" /><font size="4" style="margin-left: 1em; color:red; white_space: nowrap; font-weight: bild;">*</font><br />
+		  <label class="label" for="email"> Telefonszáma:</label>
+		  <input class="input" name="phone" type="text" value="{phone}" /><font size="4" style="margin-left: 1em; color:red; white_space: nowrap; font-weight: bild;">*</font><br />
+		  <label class="label" for="email"> Email címe:</label>
+		  <input class="input" name="email" type="text" value="{email}" /><font size="4" style="margin-left: 1em; color:red; white_space: nowrap; font-weight: bild;">*</font><br />
+		  <label class="label" for="email"> Irányitószám:</label>
+		  <input class="input" name="zip" type="text" value="{zip}" /><font size="4" style="margin-left: 1em; color:red; white_space: nowrap; font-weight: bild;">*</font><br />
+		  <label class="label" for="email"> Település:</label>
+		  <input class="input" name="city" type="text" value="{city}" /><font size="4" style="margin-left: 1em; color:red; white_space: nowrap; font-weight: bild;">*</font><br />
+		  <label class="label" for="email"> Utca, házszám:</label>
+		  <input class="input" name="street" type="text" value="{street}" /><font size="4" style="margin-left: 1em; color:red; white_space: nowrap; font-weight: bild;">*</font><br />
+		  
+		  <label class="label" for="termekek"> Termékek:</label>
+		  <!--
+		  <select multiple type="text" name="product">
+			<option value="{DVD}">DVD</option>
+			<option value="{szalag}">Torna szalag</option>			
+		  </select>
+		  -->
+		  <br />
+		  <div style="margin: -20px 0px 0px 283px;">
+			  <input type="checkbox" name="dvd" {dvd_x}/><label>DVD</label><br />
+			  <input type="checkbox" name="szalag" {szalag_x}/><label>Torna szalag</label>
+			  <font size="4" style="margin-left: 40px; color:red; white_space: nowrap; font-weight: bild;">*</font>
+		  </div>		  
+		  <label class="label" for="subject">Darab:</label>
+		  <input class="input" name="no" type="text" value="{no}" /><font size="4" style="margin-left: 1em; color:red; white_space: nowrap; font-weight: bild;">*</font>
+		  <br />
+		  <label class="label" for="fizetes"> Fizetés módja:</label>		  
+		  <br />
+		  <div style="margin: -20px 0px 0px 283px;">
+			  <input type="radio" name="fizetes" value="utalas" {utalas_x}/><label>Elõre utalás</label><br />
+			  <input type="radio" name="fizetes" value="utanvet" {utanvet_x}/><label>Utánvét</label>
+			  <font size="4" style="margin-left: 40px; color:red; white_space: nowrap; font-weight: bild;">*</font>
+		  </div>
+		  <label class="label" for="elfogad">Elfogadom az <a href="?id=7">Általános szerzõdési feltételekben</a> és a <a href="?id=8">Jognyilatkozatban</a> meghatározott feltételeket, illetve az <a href="?id=9">Adatkezelési tájékoztatóban</a> leírtakat.</label>
+		  <input class="input" name="elfogad" type="checkbox" /><font size="4" style="margin-left: 1em; color:red; white_space: nowrap; font-weight: bild;">*</font>
+		  <br /><br /><br /><br /><br /><br />
+		  <label class="label" for="submit">Rendelés elküldése:</label>
+		  <input type="submit" name="send" value="Elküldés"/>		  
+</form>
+</div>
