@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start(); //session kezelés bekapcsolása
 
 include('inc/adatkapcsolat.php');
 include('inc/class.php');
@@ -16,7 +16,7 @@ $array = array('tartalom' => $tartalom_php,
 				'leiras' => $leiras,
 				'email' => $email,			
 );				
-$index_html = new html_blokk;
+$index_html = new html_blokk;  //objektum létrehozása
 $index_html->load_template_file("template/index.html",$array);
 echo $index_html->html_code;
 ?>
