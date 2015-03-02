@@ -21,7 +21,7 @@ tinymce.init({
 		
 		
 		mode : "textareas",
-		plugins : "anchor,charmap,responsivefilemanager,jbimages,spellchecker,pagebreak,layer,importcss,table,save,insertdatetime,image,link,code,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,template",
+		plugins : "anchor,charmap,responsivefilemanager,textcolor,jbimages,spellchecker,pagebreak,layer,importcss,table,save,insertdatetime,image,link,code,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,template",
 		theme_advanced_buttons3_add : "fullpage",
 		
         valid_child_elements : "+p[span]",

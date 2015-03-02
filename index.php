@@ -19,7 +19,4 @@ $array = array('tartalom' => $tartalom_php,
 $index_html = new html_blokk;
 $index_html->load_template_file("template/index.html",$array);
 echo $index_html->html_code;
-
-
 ?>
-
