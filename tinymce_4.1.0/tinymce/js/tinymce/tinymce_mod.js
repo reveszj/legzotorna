@@ -9,7 +9,7 @@ tinymce.init({
 		
 		content_css: "my_content.css",
 		
-		toolbar : "responsivefilemanager,removeformat,bold,italic,underline,strikethrough,|,alignleft,aligncenter,alignright,alignjustify,|,image,link,code,|,cut,copy,paste,|,tablecontrols,|,styleselect,formatselect,fontselect,fontsizeselect,|,undo,redo,|,", 
+		toolbar : "responsivefilemanager,removeformat,bold,italic,underline,strikethrough,forecolor,backcolor,|,alignleft,aligncenter,alignright,alignjustify,|,image,link,code,|,cut,copy,paste,|,tablecontrols,|,styleselect,formatselect,fontselect,fontsizeselect,|,undo,redo,|,", 
 		theme_advanced_buttons2 : "bullist,numlist,|,outdent,indent,blockquote,|,link,unlink,anchor,image,cleanup,code,|,insertdate,inserttime,preview,|,forecolor,backcolor", 
 		theme_advanced_buttons3 : "hr,removeformat,visualaid,charmap,advhr,|,ltr,rtl,|,visualchars,nonbreaking,blockquote", 
 		
