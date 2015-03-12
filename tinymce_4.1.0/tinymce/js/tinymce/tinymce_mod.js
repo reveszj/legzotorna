@@ -18,7 +18,11 @@ tinymce.init({
 		theme_advanced_statusbar_location : "bottom", 
 		theme_advanced_resizing : false, 
 		
+		image_advtab : true,
 		
+		external_filemanager_path:"/filemanager/",
+		filemanager_title:"Responsive Filemanager" ,
+		external_plugins: { "filemanager" : "filemanager/plugin.min.js"},
 		
 		mode : "textareas",
 		plugins : "anchor,charmap,responsivefilemanager,textcolor,jbimages,spellchecker,pagebreak,layer,importcss,table,save,insertdatetime,image,link,code,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,template",
